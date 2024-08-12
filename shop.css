@@ -1,0 +1,342 @@
+/* Add your styles here as mentioned previously */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #cf3744;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+    padding: 15px;
+    background-color: #222;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+main {
+    padding: 2em;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+
+/* <!-- Products Section -->  */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#search-bar,
+#sort-options,
+#category-filter,
+#type-filter {
+    font-size: 20px;
+    border: 2px solid #610707;
+    border-radius: 20px;
+    padding: 6px;
+}
+
+
+
+
+.product-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1em;
+    padding: 1em;
+    width: calc(33.333% - 2em);
+    box-sizing: border-box;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: 200px;
+    width: 100%;
+    margin-top: auto;
+}
+.product-item button{
+/* background-color: #17ef22; */
+color: hsl(0, 83%, 5%);
+padding: 5px;
+border-radius: 10px;
+
+}
+.product-item button:hover{
+background-color: #17ef22;
+color: hwb(90 96% 3%);
+padding: 5px;
+
+}
+.product-item i{
+color: burlywood;
+}
+.artisan-profile img,
+.artisan-profile h3,
+.artisan-profile p {
+    display: block;
+    margin-bottom: 1em;
+}
+
+/* End of  Products Section   */
+
+
+/* Artisan Stories Section */
+
+
+#artisans {
+    padding: 2rem;
+}
+
+.artisan-profile {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.artisan-content {
+    margin-top: 1rem;
+}
+
+.bio,
+.crafting-process,
+.videos,
+.meet-the-maker {
+    margin-bottom: 2rem;
+}
+
+.crafting-process img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* End of Artisan Section */
+
+
+
+
+/* Cultural Context Section  No Style */
+
+/* About us Section*/
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+/* End of About us Section */
+
+
+/* Contact Section */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5em;
+}
+
+form input,
+form textarea,
+form button {
+    margin-bottom: 1em;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* End of Contact Section */
+
+/* .product-filter {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+} */
+
+
+/* Cart Section */
+.cart-items {
+    margin-bottom: 1em;
+}
+
+.cart-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-summary button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.cart-summary button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+/* End of Cart Section */
+
+
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box-infor {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.box-infor img {
+    width: 130px;
+}
+
+.box-infor h3 {
+    margin-top: 0;
+}
+
+.box-infor p {
+    margin: 10px 0;
+}
+
+.box-infor address {
+    font-style: normal;
+}
+
+.list-unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+.list-unstyled li {
+    display: inline;
+}
+
+.list-unstyled a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.list-unstyled a:hover {
+    color: #ddd;
+}
+
+.fs-4 {
+    font-size: 1.5em;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.gap-3 {
+    gap: 1rem;
+}
+
+.py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+small {
+    display: block;
+    margin-top: 10px;
+}
